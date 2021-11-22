@@ -1,0 +1,23 @@
+2021-11-22 13:21:33,204  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:21:49,053  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:22:00,773  INFO [main] ReadPropertyFile:55 - Submitted successfully
+2021-11-22 13:22:30,696  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:22:43,738  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:22:51,782  INFO [main] ReadPropertyFile:55 - Submitted successfully
+2021-11-22 13:23:05,092  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:23:15,076  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:23:15,567  INFO [main] ReadPropertyFile:69 - Searched successfully
+2021-11-22 13:23:46,068  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:23:58,024  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:24:12,748  INFO [main] ReadPropertyFile:185 - COD Availability checked successfully
+2021-11-22 13:24:17,521  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:24:29,225  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:25:00,915  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:25:12,662  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:25:19,326  INFO [main] ReadPropertyFile:133 - number of links displayed successfully
+2021-11-22 13:25:23,870  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:25:35,134  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:25:52,634  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:26:02,738  INFO [main] ReadPropertyFile:43 - Navigated successfully
+2021-11-22 13:26:32,605  INFO [main] ReadPropertyFile:33 - Browser is successufully invoked
+2021-11-22 13:26:49,626  INFO [main] ReadPropertyFile:43 - Navigated successfully
