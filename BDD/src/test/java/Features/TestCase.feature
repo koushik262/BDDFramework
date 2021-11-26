@@ -35,14 +35,7 @@ And check the COD availability
 And Close the driver
 
 
-Scenario: Wish List
-Given Initialize browser with chrome
-And Navigate to "https://www.bigsmall.in/" site
-And Click on wish list
-And Click on settings
-Then Enter "polojusaikrishna@gmail.com" in the box
-And click on connect
-And Close the driver
+
 
 Scenario: new Links
 Given Initialize browser with chrome
@@ -67,11 +60,19 @@ Then click on moon lamp
 And click on Add wishlist
 And Close the driver
 
-Scenario: MouseHover
+Scenario: ShopbyCategory
 Given Initialize browser with chrome
 And Navigate to "https://www.bigsmall.in/" site
 Then choose ShopbyCategory and click Travel Acccessories
 And select key chain and add to cart
+And Close the driver
+
+Scenario: Santa gifts
+Given Initialize browser with chrome
+And Navigate to "https://www.bigsmall.in/" site
+Then Click on santa gifts
+And click on santa earrings
+And click on click here
 And Close the driver
 
 

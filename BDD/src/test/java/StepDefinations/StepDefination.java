@@ -238,5 +238,35 @@ public class StepDefination extends ReadPropertyFile {
     }
     
     
+    @Then("^Click on santa gifts$")
+    public void click_on_santa_gifts() throws Throwable {
+    	
+    	driver.findElement(By.xpath("//*[@id='myheader']/div[1]/div/div/ul/li[5]/a")).click();
+      
+    }
+
+    @And("^click on santa earrings$")
+    public void click_on_santa_earrings() throws Throwable {
+    	driver.findElement(By.xpath("//*[@id='CollectionAjaxContent']/div[1]/div[3]/div/a/div[2]/div[1]")).click();
+      
+    }
+
+    @And("^click on click here$")
+    public void click_on_click_here() throws Throwable {
+    	driver.findElement(By.xpath("//*[@id=\"myownreturntext\"]/a")).sendKeys(Keys.chord(Keys.CONTROL, Keys.ENTER));
+log.info("clicking on click here");
+		
+		Set<String> ab = driver.getWindowHandles();
+		Iterator<String> it = ab.iterator();
+		String parentId = it.next();
+		String childid = it.next();
+		driver.switchTo().window(childid);
+		log.info("switching to child window");
+		driver.close();
+		driver.switchTo().window(parentId);
+		log.info("switching to parent window");
+    }
+    
+    
 
 }

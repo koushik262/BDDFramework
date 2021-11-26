@@ -17,22 +17,22 @@ public class ReadPropertyFile {
 		// TODO Auto-generated method stub
 		p = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"D:\\selinium\\COMPREHENSIVE\\BDD\\testdata\\configure.properties");
+				"./testdata/configure.properties");
 		p.load(fis);
 		String browserName = p.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"D:\\selinium\\COMPREHENSIVE\\BDD\\drivers\\chromedriver2.exe");
+					"./drivers/chromedriver2.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
-					"D:\\Selenium\\comprehensive_Assessment\\Com_Assessment\\drivers\\chromedriver.exe");
+					"./drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			System.setProperty("webdriver.edge.driver",
-					"D:\\selinium\\comprehensive_Assessment\\Com_Assessment\\driver\\msedgedriver.exe");
+					"./driver/msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 		return driver;

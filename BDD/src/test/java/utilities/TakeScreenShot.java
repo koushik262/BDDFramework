@@ -16,6 +16,6 @@ public class TakeScreenShot extends ReadPropertyFile{
 	public void getScreenshot(String result) throws IOException
 	{
 		java.io.File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("D:\\selinium\\COMPREHENSIVE\\BDD\\ScreenShot\\"+result+System.currentTimeMillis()+".png"));
+		FileUtils.copyFile(src, new File("./ScreenShot/"+result+System.currentTimeMillis()+".png"));
 	}
 }
